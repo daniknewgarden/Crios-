@@ -1,0 +1,11 @@
+@media screen and (min-width: 1341px) and (max-width: 1719px) {
+  .main .main__adventage {
+    padding: 5% 10%; }
+  .main .box__text .text-title, .main .box__text .text {
+    width: 50%; }
+  .main .main__app .app__first {
+    padding: 160px 15% 160px 16%; }
+  .main .main__app .app__second {
+    padding: 0 15% 160px 16%; }
+  .main .main__contact {
+    padding: 0 15% 0 20%; } }

@@ -1,0 +1,120 @@
+@import "variables";
+@import "mixin";
+@media screen and (min-width: 100px) and (max-width: 500px){
+    .wrapper, body{
+        
+    }
+    .header{
+        height: 800px;
+        padding: 0;
+        background-position: 54% 40%;
+            .header__menu{
+                padding: 0 10px;
+                height: 100px;
+                .menu__crios{
+                    width: 150px;
+                    height: 150px;
+                    padding: 20px;
+                        .crios__title{
+                            font-size: 25px;
+                        }
+                        .crios__text{
+                            font-size: 8px;
+                        }
+                }
+            }
+            .header__title{
+                text-align: center;
+                .title{
+                    font-size: 20px;
+                }
+                .title__button{
+                    padding: 20px;
+                }
+            }
+    }
+    .main{
+        .main__adventage{
+            padding: 10px 10px 30px 10px;
+            height: 1000px;
+            .adventage__title{
+                .title__small{
+                    font-size: 13px;
+                }
+                .title__big{
+                    text-align: center;
+                    font-size: 23px;
+                }
+            }
+            .adventage__blocks {
+                @include flex (column, space-around,center);
+                flex-wrap: nowrap;
+                height: 1000px;
+                    .blocks__item{
+                        width: 60%;
+                    }
+            }
+            .adventage__button {
+                padding: 10px 20px;
+            }
+        }
+        .main__box{
+            .box{
+                flex-direction: column;
+                .box__img{
+                    width: 100%;
+                    
+                }
+                .box__text{
+                    order: 2;
+                        .text__title, .text{
+                            text-align: center;
+                            width: 80%;
+                        }
+                }
+            }
+        }
+        .main__app{
+            .app__item{
+                padding: 0 20px;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    width: 50%;
+                }    
+            }
+        .app__first{
+            .app__img{
+                align-self: flex-end;
+            }
+        }    
+        .app__second{
+            display: flex;
+            .second__img{
+                order: -1;
+            }
+        }
+            
+        }
+        .main__contact{
+            justify-content: space-around;
+            flex-direction: column;
+            height: 600px;
+                .contact__photo{
+                    width: 70%;
+                    text-align: center;
+                }
+                .contact__text{
+                    width: 90%;
+                    text-align: center;
+                        .text__title{
+                            font-size: 20px;
+                        }
+                        .text{
+                            font-size: 15px;
+                            line-height: 20px;
+                        }
+                }
+        }
+    }
+}

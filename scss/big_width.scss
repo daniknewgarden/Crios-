@@ -1,0 +1,23 @@
+@media screen and (min-width: 1720px){
+    .main{
+        .main__adventage{
+            padding: 5% 15%;
+        }
+        .box__text {
+            .text-title, .text {
+                width: 40%;
+            }
+        }
+        .main__app{
+            .app__first{
+                padding: 160px 15% 160px 16%;
+            }
+            .app__second{
+                padding: 0 15% 160px 16%;
+            }
+        }
+        .main__contact{
+                padding: 0 15% 0 20%;
+        }
+    }
+}
