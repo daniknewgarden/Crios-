@@ -63,13 +63,13 @@
                 flex-direction: column;
                 .box__img{
                     width: 100%;
-                    
                 }
                 .box__text{
+                    max-width: 100%;
                     order: 2;
                         .text__title, .text{
                             text-align: center;
-                            width: 80%;
+                            width: 90%;
                         }
                 }
             }

@@ -56,12 +56,13 @@
     .main .main__box .box .box__img {
       width: 100%; }
     .main .main__box .box .box__text {
+      max-width: 100%;
       -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
       order: 2; }
       .main .main__box .box .box__text .text__title, .main .main__box .box .box__text .text {
         text-align: center;
-        width: 80%; }
+        width: 90%; }
   .main .main__app .app__item {
     padding: 0 20px;
     -webkit-box-orient: vertical;
