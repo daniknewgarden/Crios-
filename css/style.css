@@ -7,7 +7,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
 
 .wrapper {
   margin: 0 auto;
@@ -261,6 +261,10 @@ body {
     .main .main__box .box .box__img {
       width: 50%;
       max-height: 100%; }
+    .main .main__box .box .second__img {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2; }
     .main .main__box .box .box__text {
       display: -webkit-box;
       display: -ms-flexbox;

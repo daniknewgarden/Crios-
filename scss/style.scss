@@ -190,6 +190,10 @@ body {
                 max-height: 100%;
             }
 
+            .second__img {
+                order: 2;
+            }
+
             .box__text {
                 @include flex (column, center, center);
                 max-width: 50%;
