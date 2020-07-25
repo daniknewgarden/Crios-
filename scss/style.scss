@@ -190,8 +190,8 @@ body {
                 max-height: 100%;
             }
 
-            .second__img {
-                order: 2;
+            &:nth-child(even) {
+                flex-direction: row-reverse;
             }
 
             .box__text {
